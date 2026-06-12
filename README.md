@@ -1,4 +1,4 @@
-# [The Evolution of Wi-Fi](https://docs.google.com/document/d/1PpgzTTaoYTDf0LYQLVLaEKhknVlml7rv/edit)
+# [The Evolution of Wi-Fi]([https://docs.google.com/document/d/1PpgzTTaoYTDf0LYQLVLaEKhknVlml7rv/edit](https://docs.google.com/document/d/1PpgzTTaoYTDf0LYQLVLaEKhknVlml7rv/edit?usp=sharing&ouid=118258009009741865506&rtpof=true&sd=true))
 
 **CSARCH2 | 3rd Term 2025–2026 | S01 |Group No. 6**
 
@@ -64,30 +64,26 @@ The exhibit covers the evolution of Wi-Fi standards over the decades, from the o
 | 802.11ax | 2020 | Wi-Fi 6/6E | Dual-band, reduced subcarrier spacing, scheduled resource allocation |
 | 802.11be | Present | Wi-Fi 7 | Up to 46 Gbps, 320 MHz channels, Multi-Link Operation |
 
-<mark>
+#### <mark>802.11b (1999)</mark>
+<mark>Also known as Wi-Fi 1, it operates on an unlicensed ISM frequency with a channel bandwidth of 22 MHz, with a maximum theoretical output of 11 Mbps and a fallback of 1–2 Mbps. It used complex M-Ary orthogonal coding known as Complementary Code Keying (CCK). It was considered ineffective because other wireless methods of the time shared the same range and caused interference in the Wi-Fi signals.</mark>
 
-#### 802.11b (1999)
-Also known as Wi-Fi 1, it operates on an unlicensed ISM frequency with a channel bandwidth of 22 MHz, with a maximum theoretical output of 11 Mbps and a fallback of 1–2 Mbps. It used complex M-Ary orthogonal coding known as Complementary Code Keying (CCK). It was considered ineffective because other wireless methods of the time shared the same range and caused interference in the Wi-Fi signals.
+#### <mark>802.11a (1999)</mark>
+<mark>Unlike the 802.11b, this one operated on the 5 GHz band using OFDM (Orthogonal Frequency Division Multiplexing), offering speeds up to 54 Mbps. Although faster than 802.11b, it has a shorter range and less wall penetration.</mark>
 
-#### 802.11a (1999)
-Unlike the 802.11b, this one operated on the 5 GHz band using OFDM (Orthogonal Frequency Division Multiplexing), offering speeds up to 54 Mbps. Although faster than 802.11b, it has a shorter range and less wall penetration.
+#### <mark>802.11g (2003)</mark>
+<mark>Used the same OFDM tech as 802.11a, but combined both of the better qualities of 802.11a and 802.11b, offering higher speeds with broader range and backward compatibility with 802.11b.</mark>
 
-#### 802.11g (2003)
-Used the same OFDM tech as 802.11a, but combined both of the better qualities of 802.11a and 802.11b, offering higher speeds with broader range and backward compatibility with 802.11b.
+#### <mark>802.11n (2009)</mark>
+<mark>First one to be actually considered good enough for commercial use. It combined both the 2.4 GHz and 5 GHz bands of 802.11a and 802.11b while introducing MIMO (Multiple Input Multiple Output).</mark>
 
-#### 802.11n (2009)
-First one to be actually considered good enough for commercial use. It combined both the 2.4 GHz and 5 GHz bands of 802.11a and 802.11b while introducing MIMO (Multiple Input Multiple Output).
+#### <mark>802.11ac (2013)</mark>
+<mark>First Wi-Fi standard to provide gigabit speeds per second. Operated on the 5 GHz band and introduced wider channels and multi-user MIMO.</mark>
 
-#### 802.11ac (2013)
-First Wi-Fi standard to provide gigabit speeds per second. Operated on the 5 GHz band and introduced wider channels and multi-user MIMO.
+#### <mark>802.11ax (2020)</mark>
+<mark>Also known as Wi-Fi 6E, it was the one that introduced dual-band support across both 2.4 GHz and 5 GHz, reduced subcarrier spacing (78.125 kHz), and schedule-based resource allocation.</mark>
 
-#### 802.11ax (2020)
-Also known as Wi-Fi 6E, it was the one that introduced dual-band support across both 2.4 GHz and 5 GHz, reduced subcarrier spacing (78.125 kHz), and schedule-based resource allocation.
-
-#### 802.11be (Present)
-Also known as Wi-Fi 7, it is backwards compatible with Wi-Fi 6E, uses OFDMA, and operates in both 2.4 and 5.6 GHz, supports up to 46 Gbps, introduces 320 MHz channels, and Multi-Link Operation.
-
-</mark>
+#### <mark>802.11be (Present)</mark>
+<mark>Also known as Wi-Fi 7, it is backwards compatible with Wi-Fi 6E, uses OFDMA, and operates in both 2.4 and 5.6 GHz, supports up to 46 Gbps, introduces 320 MHz channels, and Multi-Link Operation.</mark>
 
 ---
 
@@ -178,7 +174,7 @@ Selecting a generation updates both of its sub-views:
 
 ### Layout & Spacing
 
-<mark>The exhibit will use a clean and organized layout with the Wi-Fi workspace as the main focus of the page. The workspace will feature a two-tab interface centered on the page, defaulting to the Information tab while allowing users to switch to the Simulator tab. The control buttons, such as "Place Router," "Reset," and "Show Heatmap," will be grouped near the floor plan within the Simulator tab for easy access.</mark> A heatmap legend will be placed beside or below the simulator to help users understand the signal strength colors. Proper spacing will be used between the buttons, legend, floor plan, and information cards to keep the interface readable and not overcrowded.
+<mark>The exhibit will use a clean and organized layout with the Wi-Fi workspace as the main focus of the page. The workspace will feature a two-tab interface centered on the page, defaulting to the Information tab while allowing users to switch to the Simulator tab. The control buttons, such as "Place Router," "Reset," and "Show Heatmap," will be grouped near the floor plan within the Simulator tab for easy access. A heatmap legend will be placed beside or below the simulator to help users understand the signal strength colors. Proper spacing will be used between the buttons, legend, floor plan, and information cards to keep the interface readable and not overcrowded.</mark>
 
 ### UI Components & Tone
 
@@ -186,7 +182,7 @@ Selecting a generation updates both of its sub-views:
 
 - **Information Tab:** The initial active view, which displays a dedicated technical breakdown and history card for the currently selected Wi-Fi generation, outlining its specific frequency bands, throughput limits, modulation techniques, and real-world context.
 
-- **Simulator Tab:** Features a draggable router sprite that users can place anywhere on the floor plan grid.</mark> Once the router is placed, the signal strength heatmap will update depending on the router's position and the surrounding obstacles, such as walls, furniture, concrete barriers, metal appliances, and other interference sources. The heatmap will visually show how the Wi-Fi signal spreads across the room, with colors indicating excellent, strong, moderate, fair, weak, or very weak/dead-zone areas. Users will also be able to customize their own floor plans by placing or removing objects on the grid, allowing them to experiment with how different layouts affect Wi-Fi coverage.
+- **Simulator Tab:** <mark>Features a draggable router sprite that users can place anywhere on the floor plan grid. Once the router is placed, the signal strength heatmap will update depending on the router's position and the surrounding obstacles, such as walls, furniture, concrete barriers, metal appliances, and other interference sources. The heatmap will visually show how the Wi-Fi signal spreads across the room, with colors indicating excellent, strong, moderate, fair, weak, or very weak/dead-zone areas. Users will also be able to customize their own floor plans by placing or removing objects on the grid, allowing them to experiment with how different layouts affect Wi-Fi coverage.</mark>
 
 <mark>Additional UI components within the Simulator tab will include a reset button, a router placement mode, a floor plan editing toolbar, and a heatmap toggle button.</mark> A side palette from the floor plan editing toolbar may be used to let users drag and drop different objects, such as interior walls, concrete walls, wooden furniture, metal appliances, and interference sources. A Wi-Fi generation selector is included above the workspace so users can compare how different Wi-Fi standards affect signal range, speed, and obstacle penetration. To make the simulator easier to understand, the interface will include a color legend for the heatmap and an information card that updates based on the selected Wi-Fi generation.
 
