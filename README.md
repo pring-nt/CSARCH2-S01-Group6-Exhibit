@@ -188,7 +188,7 @@ Additional UI components within the Simulator tab will include a reset button, a
 
 ### Figure 1 — Information Tab (802.11b)
 
-![Information Tab Mockup](./)
+![Information Tab Mockup](./assets/InformationTab.png)
 
 > *Mockup of the Information tab displaying the technical breakdown and history card for 802.11b.*
 
@@ -196,6 +196,6 @@ Additional UI components within the Simulator tab will include a reset button, a
 
 ### Figure 2 — Simulator Tab (802.11b)
 
-![Simulator Tab Mockup](./)
+![Simulator Tab Mockup](./assets/InteractiveElement.png)
 
 > *Mockup of the Simulator tab showing the floor plan grid, router placement, and heatmap overlay for 802.11b.*
